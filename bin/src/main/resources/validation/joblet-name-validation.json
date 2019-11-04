@@ -1,0 +1,12 @@
+{
+  "name": "Joblet Name Validation",
+  "description":"Joblet names should be according to the format of jlet_[group]_[sequence]_[description]",
+  "level": "WARN",
+  "fileLocations": [
+    "joblets"
+  ],
+  "includeSubDirectories": true,
+  "filePattern": ".*(.item)",
+  "validationType": "filename",
+  "assertionRegex": "jlet(_([a-z][a-zA-Z]*|[0-9]*))*_[0-9]*.[0-9]*.item"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Context Parameter Validation",
+  "description":"Context variables should be in camel-case",
+  "level": "ERROR",
+  "fileLocations": [
+    "context",
+    "process"
+  ],
+  "includeSubDirectories": true,
+  "filePattern": ".*(.item)",
+  "validationType": "content/xml",
+  "sourceXpath": "//contextParameter/@name",
+  "assertionRegex": "[a-z][A-Za-z0-9]*"
+}
