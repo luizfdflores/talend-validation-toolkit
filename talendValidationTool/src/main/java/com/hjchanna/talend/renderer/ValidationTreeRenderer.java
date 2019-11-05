@@ -1,8 +1,8 @@
-package com.hjchanna.talend.renderer;
+package src.main.java.com.hjchanna.talend.renderer;
 
-import com.hjchanna.talend.Constraints;
-import com.hjchanna.talend.dto.ValidationResponse;
-import com.hjchanna.talend.util.TalendValidationToolUtils;
+import src.main.java.com.hjchanna.talend.Constraints;
+import src.main.java.com.hjchanna.talend.dto.ValidationResponse;
+import src.main.java.com.hjchanna.talend.util.TalendValidationToolUtils;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Image;

@@ -1,8 +1,8 @@
-package com.hjchanna.talend.gui;
+package src.main.java.com.hjchanna.talend.gui;
 
-import com.hjchanna.talend.model.FileTreeModel;
-import com.hjchanna.talend.renderer.FileTreeRenderer;
-import com.hjchanna.talend.util.TalendValidationToolUtils;
+import src.main.java.com.hjchanna.talend.model.FileTreeModel;
+import src.main.java.com.hjchanna.talend.renderer.FileTreeRenderer;
+import src.main.java.com.hjchanna.talend.util.TalendValidationToolUtils;
 import java.io.File;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
@@ -29,7 +29,6 @@ public abstract class ProjectsPanel extends javax.swing.JPanel {
         initOthers();
     }
 
-    @SuppressWarnings("unchecked")
     private void initOthers() {
         treeFiles.setModel(new FileTreeModel());
         treeFiles.setCellRenderer(new FileTreeRenderer());
@@ -57,7 +56,7 @@ public abstract class ProjectsPanel extends javax.swing.JPanel {
 
     protected abstract void onNonTalenProjectSelect();
 
-    @SuppressWarnings("unchecked")
+    
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

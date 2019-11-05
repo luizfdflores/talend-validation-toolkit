@@ -1,4 +1,4 @@
-package com.hjchanna.talend.gui;
+package src.main.java.com.hjchanna.talend.gui;
 
 /**
  *
@@ -21,10 +21,14 @@ public class MainPanel extends javax.swing.JPanel {
         initOthers();
     }
 
-    @SuppressWarnings("unchecked")
     private void initOthers() {
         ProjectsPanel projectsPanel = new ProjectsPanel() {
-            @Override
+            /**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
             protected void onTalenProjectSelect(java.io.File dir) {
                 setView(TalendProjectView.getInstance(dir));
             }
@@ -47,7 +51,7 @@ public class MainPanel extends javax.swing.JPanel {
         pnlProjectInfo.repaint();
     }
 
-    @SuppressWarnings("unchecked")
+    
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

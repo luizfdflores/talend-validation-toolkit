@@ -1,8 +1,7 @@
-package src.main.java.com.hjchanna.talend;
+package src.test.java.com.hjchanna.talend;
 
+import src.main.java.com.hjchanna.talend.TalendValidationParser;
 import src.main.java.com.hjchanna.talend.dto.ValidationRequest;
-import org.junit.Test;
-
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;

@@ -10,6 +10,8 @@ import org.apache.maven.plugins.annotations.LifecyclePhase;
 import org.apache.maven.plugins.annotations.Mojo;
 import org.apache.maven.project.MavenProject;
 import org.junit.runners.Parameterized.Parameter;
+import org.junit.runners.Parameterized;
+import org.testng.annotations.Parameters;
 
 import src.main.java.com.hjchanna.talend.dto.ValidationResponse;
 

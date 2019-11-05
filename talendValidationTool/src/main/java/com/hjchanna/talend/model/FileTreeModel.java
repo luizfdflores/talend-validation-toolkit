@@ -1,4 +1,4 @@
-package com.hjchanna.talend.model;
+package src.main.java.com.hjchanna.talend.model;
 
 import java.io.File;
 import java.util.ArrayList;

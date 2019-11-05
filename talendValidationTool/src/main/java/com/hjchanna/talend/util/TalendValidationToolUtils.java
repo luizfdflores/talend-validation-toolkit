@@ -1,4 +1,4 @@
-package com.hjchanna.talend.util;
+package src.main.java.com.hjchanna.talend.util;
 
 import java.io.File;
 import java.io.FilenameFilter;

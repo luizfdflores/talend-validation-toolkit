@@ -1,3 +1,4 @@
+package src.main.java.com.hjchanna.talend;
 
 import src.main.java.com.hjchanna.talend.gui.MainPanel;
 import src.main.java.com.hjchanna.talend.util.TalendValidationToolUtils;

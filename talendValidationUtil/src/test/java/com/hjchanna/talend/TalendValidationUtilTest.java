@@ -1,8 +1,7 @@
-package com.hjchanna.talend;
+package src.test.java.com.hjchanna.talend;
 
-import com.hjchanna.talend.dto.ValidationResponse;
-import org.junit.Test;
-
+import src.main.java.com.hjchanna.talend.TalendValidationUtil;
+import src.main.java.com.hjchanna.talend.dto.ValidationResponse;
 import java.io.File;
 import java.net.URI;
 import java.util.List;

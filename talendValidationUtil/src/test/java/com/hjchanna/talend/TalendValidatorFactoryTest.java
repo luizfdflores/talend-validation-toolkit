@@ -1,10 +1,9 @@
-package src.main.java.com.hjchanna.talend;
+package src.test.java.com.hjchanna.talend;
 
 import src.main.java.com.hjchanna.talend.TalendValidatorFactory;
 import src.main.java.com.hjchanna.talend.dto.ValidationRequest;
 import src.main.java.com.hjchanna.talend.validator.TalendValidator;
-import org.junit.Test;
-
+import src.main.java.com.hjchanna.talend.Constraints;
 import java.util.Arrays;
 import java.util.List;
 

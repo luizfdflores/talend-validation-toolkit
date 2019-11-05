@@ -1,4 +1,4 @@
-package com.hjchanna.talend.gui;
+package src.main.java.com.hjchanna.talend.gui;
 
 /**
  *
@@ -22,7 +22,7 @@ public class NonTalendProjectView extends javax.swing.JPanel {
         return INSTANCE;
     }
 
-    @SuppressWarnings("unchecked")
+    
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 

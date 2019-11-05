@@ -1,6 +1,6 @@
-package com.hjchanna.talend.model;
+package src.main.java.com.hjchanna.talend.model;
 
-import com.hjchanna.talend.dto.ValidationResponse;
+import src.main.java.com.hjchanna.talend.dto.ValidationResponse;
 import java.util.List;
 import javax.swing.event.TreeModelListener;
 import javax.swing.tree.TreeModel;
